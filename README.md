@@ -2,12 +2,11 @@
 
 **AI Engineer** | LLMs (**RAG**, agents) | NLP | Python
 
-**Open to:** AI Engineer / LLM Engineer / ML Engineer (internship/full-time)
-**Resume:** `../Remuse_final.pdf` | **LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
+**Open to:** AI Engineer / LLM Engineer / ML Engineer (internship/full-time)| **LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
 
 ## Recruiter Quick Scan
 
-- **Experience:** AI Research Intern @ MySellerCentre (Sep 2025 - Present)
+- **Experience:** AI Engineer Intern @ MySellerCentre (Sep 2025 - Present)
 - **Domain:** e-commerce / marketplaces (support automation, listings, catalog content)
 - **Core strengths:** **embeddings**, **retrieval**, **RAG**, structured outputs, Python backend
 - **Primary stack:** **Python**, **FastAPI**, **Streamlit**, **PostgreSQL**, **MongoDB**
@@ -47,30 +46,9 @@
 
 **Tech:** Python, Streamlit, OpenRouter (via `openai` SDK), PyPDF2, python-docx, requests, lxml, SMTP, (optional) Outlook/pywin32
 
-### Work Projects (MySellerCentre)
-These are professional projects delivered as part of my internship (details in the **Experience** section).
-
-#### Multi-Marketplace Seller Support Chatbot (RAG) - Jan 2026 to Feb 2026
-- Built a seller support assistant using **RAG** for marketplace policy/refund/compliance queries (Amazon, Flipkart, Walmart, ONDC, Shopify).
-- Designed the retrieval workflow (**docs -> chunks -> embeddings -> retrieval**) and shipped a usable **API + demo UI** for feedback-driven iteration.
-
-**Tech:** Python, FastAPI, Streamlit, MongoDB, PostgreSQL
-
-#### Cross-Marketplace ONDC Listing Generator (Agent + Embeddings) - Dec 2025 to Jan 2026
-- Built an automation workflow to extract product data, map categories via **embeddings**, and generate **ONDC-compliant** listings using an LLM.
-- Added a review UI and structured pipeline (**raw HTML -> normalized fields -> enriched attributes -> final listing**).
-
-**Tech:** Python, Streamlit, BeautifulSoup, Zyte API, PostgreSQL, embeddings, LLMs
-
-#### Product Content Enhancer for E-commerce - Oct 2025 to Dec 2025
-- Built a content enhancement tool to improve **titles**, **bullets**, and **descriptions** using structured prompts + validation checks.
-- Implemented scalable batch processing via a worker queue; standardized outputs for clarity and consistency.
-
-**Tech:** Python, Streamlit, Celery, MongoDB, Zyte API, LLMs
-
 ## Experience
 
-### AI Research Intern - MySellerCentre (Sep 2025 - Present)
+### AI Engineer Intern - MySellerCentre (Sep 2025 - Present)
 - Built **LLM/NLP** solutions using Python, embeddings, and retrieval workflows to automate marketplace operations.
 - Developed **data pipelines** for scraping, processing, and analyzing product/catalog data.
 - Delivered internal tools and prototypes to improve product listings and seller support workflows.
@@ -104,15 +82,8 @@ These are professional projects delivered as part of my internship (details in t
 - Data Science - Devtown (Jul 2025)
 
 ## Contact
-- Resume (PDF): `../Remuse_final.pdf`
 - LinkedIn: https://linkedin.com/in/shivam-mishra-3b354023a
 - Email: mshivam3003@gmail.com
 - Phone: +91 75685 55487
 
-## Recruiter Keywords (ATS)
 
-<details>
-  <summary>Click to expand</summary>
-
-LLM, RAG, embeddings, vector search, prompt engineering, agentic workflows, Python, FastAPI, Streamlit, PostgreSQL, MongoDB, web scraping, NLP, Transformers, LangChain, LangGraph, LangSmith, Langfuse.
-</details>
