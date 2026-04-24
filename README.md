@@ -3,11 +3,11 @@
 **AI Engineer** | LLMs (**RAG**, agents) | NLP | Python
 
 **Open to:** AI Engineer / LLM Engineer / ML Engineer (internship/full-time)
-| **LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
+**Resume:** `../Remuse_final.pdf` | **LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
 
 ## Recruiter Quick Scan
 
-- **Experience:** AI  Engineer Intern @ MySellerCentre (Sep 2025 - Present)
+- **Experience:** AI Research Intern @ MySellerCentre (Sep 2025 - Present)
 - **Domain:** e-commerce / marketplaces (support automation, listings, catalog content)
 - **Core strengths:** **embeddings**, **retrieval**, **RAG**, structured outputs, Python backend
 - **Primary stack:** **Python**, **FastAPI**, **Streamlit**, **PostgreSQL**, **MongoDB**
@@ -46,35 +46,50 @@
 
 **Tech:** Python, Streamlit, OpenRouter (via `openai` SDK), PyPDF2, python-docx, requests, lxml, SMTP, (optional) Outlook/pywin32
 
-### Multi-Marketplace Seller Support Chatbot (RAG) - Jan 2026 to Feb 2026
-**Goal:** automate seller support across marketplaces (**Amazon, Flipkart, Walmart, ONDC, Shopify**).
+### Work Projects (MySellerCentre)
+These are professional projects delivered as part of my internship (details in the **Experience** section).
 
-- **Built:** an LLM-powered support assistant using **RAG** for **policy/refund/compliance** queries.
-- **Designed:** retrieval workflow (**doc organization -> chunking -> embeddings -> retrieval**) and iterated prompts for **grounded answers**.
-- **Shipped:** a usable **API + demo UI** to validate flows and collect feedback quickly.
+#### Multi-Marketplace Seller Support Chatbot (RAG) - Jan 2026 to Feb 2026
+- Built a seller support assistant using **RAG** for marketplace policy/refund/compliance queries (Amazon, Flipkart, Walmart, ONDC, Shopify).
+- Designed the retrieval workflow (**docs -> chunks -> embeddings -> retrieval**) and shipped a usable **API + demo UI** for feedback-driven iteration.
 
 **Tech:** Python, FastAPI, Streamlit, MongoDB, PostgreSQL
 
-### Cross-Marketplace ONDC Listing Generator (Agent + Embeddings) - Dec 2025 to Jan 2026
-- **Built:** an automation workflow to extract product data, map categories via **embeddings**, and generate **ONDC-compliant** listings with an LLM.
-- **Added:** a **review UI** to validate extracted/enriched fields before final output.
-- **Implemented:** a structured pipeline from **raw HTML -> normalized fields -> enriched attributes -> listing format**.
+#### Cross-Marketplace ONDC Listing Generator (Agent + Embeddings) - Dec 2025 to Jan 2026
+- Built an automation workflow to extract product data, map categories via **embeddings**, and generate **ONDC-compliant** listings using an LLM.
+- Added a review UI and structured pipeline (**raw HTML -> normalized fields -> enriched attributes -> final listing**).
 
 **Tech:** Python, Streamlit, BeautifulSoup, Zyte API, PostgreSQL, embeddings, LLMs
 
-### Product Content Enhancer for E-commerce - Oct 2025 to Dec 2025
-- **Built:** a content enhancement tool to improve **titles**, **bullets**, and **descriptions** with structured prompts + validation checks.
-- **Implemented:** **batch processing** with a worker queue to support scalable runs across large catalogs.
-- **Standardized:** output style for **clarity + consistency** to reduce manual editing time.
+#### Product Content Enhancer for E-commerce - Oct 2025 to Dec 2025
+- Built a content enhancement tool to improve **titles**, **bullets**, and **descriptions** using structured prompts + validation checks.
+- Implemented scalable batch processing via a worker queue; standardized outputs for clarity and consistency.
 
 **Tech:** Python, Streamlit, Celery, MongoDB, Zyte API, LLMs
 
 ## Experience
 
-### AI Engineer Intern - MySellerCentre (Sep 2025 - Present)
+### AI Research Intern - MySellerCentre (Sep 2025 - Present)
 - Built **LLM/NLP** solutions using Python, embeddings, and retrieval workflows to automate marketplace operations.
 - Developed **data pipelines** for scraping, processing, and analyzing product/catalog data.
-- Delivered **internal tools and prototypes** to improve product listings and seller support workflows.
+- Delivered internal tools and prototypes to improve product listings and seller support workflows.
+
+#### Selected Work Projects
+
+**Multi-Marketplace Seller Support Chatbot (RAG) (Jan 2026 - Feb 2026)**
+- Built a seller support chatbot that answers **policy/refund/compliance** questions using **RAG** over internal documents.
+- Worked on knowledge organization, chunking strategy, and retrieval quality to keep answers grounded and consistent.
+- Shipped a demo-ready **FastAPI + Streamlit** experience to validate end-to-end flows with stakeholders.
+
+**Cross-Marketplace ONDC Listing Generator (Dec 2025 - Jan 2026)**
+- Built an agent-style workflow to extract product info, map categories via **embeddings**, and generate **ONDC-compliant** listings using an LLM.
+- Created a review UI to verify extracted/enriched fields and reduce errors before final listing export.
+- Designed a structured pipeline from **raw HTML -> normalized fields -> enriched attributes -> compliant output**.
+
+**Product Content Enhancer for E-commerce (Oct 2025 - Dec 2025)**
+- Built an LLM-powered tool to improve **titles**, **bullets**, and **descriptions** with structured prompts and validation rules.
+- Implemented batch processing (queue + workers) to handle larger catalogs reliably.
+- Standardized output format to improve readability and reduce manual edits.
 
 ## Education
 
@@ -88,8 +103,15 @@
 - Data Science - Devtown (Jul 2025)
 
 ## Contact
+- Resume (PDF): `../Remuse_final.pdf`
 - LinkedIn: https://linkedin.com/in/shivam-mishra-3b354023a
 - Email: mshivam3003@gmail.com
 - Phone: +91 75685 55487
 
+## Recruiter Keywords (ATS)
 
+<details>
+  <summary>Click to expand</summary>
+
+LLM, RAG, embeddings, vector search, prompt engineering, agentic workflows, Python, FastAPI, Streamlit, PostgreSQL, MongoDB, web scraping, NLP, Transformers, LangChain, LangGraph, LangSmith, Langfuse.
+</details>
