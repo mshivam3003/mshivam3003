@@ -48,6 +48,7 @@
 **Tech:** Python, Streamlit, OpenRouter (via `openai` SDK), PyPDF2, python-docx, requests, lxml, SMTP, (optional) Outlook/pywin32
 
 ### Mixed-Infection Sugarcane Leaf Disease Classification (GenAI Synthetic Data + Multi-Level Transformer)
+[🔗 View Repository](https://github.com/mshivam3003/Sugarcane-MLTSDC-repo)
 **Project Status**
 - **Stage:** prompt bank + initial generation experiments completed; training the upgraded classifier is ongoing.
 
