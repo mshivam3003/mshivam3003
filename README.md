@@ -3,12 +3,11 @@
 **AI Engineer** | LLMs (**RAG**, agents) | NLP | Python
 
 **Open to:** AI Engineer / LLM Engineer / ML Engineer (internship/full-time)
-
-**Resume:** `../Remuse_final.pdf` | **LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
+| **LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
 
 ## Recruiter Quick Scan
 
-- **Experience:** AI Research Intern @ MySellerCentre (Sep 2025 - Present)
+- **Experience:** AI  Engineer Intern @ MySellerCentre (Sep 2025 - Present)
 - **Domain:** e-commerce / marketplaces (support automation, listings, catalog content)
 - **Core strengths:** **embeddings**, **retrieval**, **RAG**, structured outputs, Python backend
 - **Primary stack:** **Python**, **FastAPI**, **Streamlit**, **PostgreSQL**, **MongoDB**
@@ -25,15 +24,27 @@
 | Category | Skills |
 | --- | --- |
 | Languages | Python, SQL |
-| LLM / GenAI | Prompt engineering, embeddings, Retrieval-Augmented Generation (RAG), agentic workflows |
+| LLM / GenAI | LLMs, prompt engineering, Retrieval-Augmented Generation (RAG), embeddings, vector search, agentic workflows |
 | Frameworks | FastAPI, Streamlit, LangChain, LangGraph |
 | LLM Observability | LangSmith, Langfuse |
 | Data / Storage | PostgreSQL, MongoDB, Microsoft SQL Server, DuckDB, AWS S3 |
+| Web scraping | web scraping, BeautifulSoup, lxml, requests, Zyte API |
 | ML / NLP | Transformers, evaluation, feature engineering, spaCy, NLTK |
 | Libraries | NumPy, Pandas, SciPy, scikit-learn, XGBoost, LightGBM, CatBoost, PyTorch, TensorFlow/Keras, OpenCV |
 | Analytics | EDA, data cleaning, Matplotlib/Seaborn, Power BI, Excel, Google Sheets |
 
 ## Featured Projects
+
+### ResumeRise AI (Resume Builder + ATS Scoring + Job Scout)
+**Goal:** help candidates tailor resumes to a job description and discover fresh roles (with optional email alerts).
+
+- **Built:** a local **Streamlit** app to (1) **score ATS compatibility** against a JD, (2) **improve the resume with an LLM** while preserving original content, and (3) **find job links** and generate a daily-style job email.
+- **Designed:** a hybrid ATS pipeline (**LLM JSON extraction** of signals + **deterministic rule engine**) for consistent scoring and actionable recommendations.
+- **Implemented:** resume parsing + exports (PDF/DOCX) and a best-effort job discovery workflow (HTTP fetch + HTML/JSON-LD extraction) with SMTP/Outlook fallback for sending.
+
+**Demo:** https://conversational-ai-147.preview.emergentagent.com/
+
+**Tech:** Python, Streamlit, OpenRouter (via `openai` SDK), PyPDF2, python-docx, requests, lxml, SMTP, (optional) Outlook/pywin32
 
 ### Multi-Marketplace Seller Support Chatbot (RAG) - Jan 2026 to Feb 2026
 **Goal:** automate seller support across marketplaces (**Amazon, Flipkart, Walmart, ONDC, Shopify**).
@@ -60,15 +71,15 @@
 
 ## Experience
 
-### AI Research Intern - MySellerCentre (Sep 2025 - Present)
+### AI Engineer Intern - MySellerCentre (Sep 2025 - Present)
 - Built **LLM/NLP** solutions using Python, embeddings, and retrieval workflows to automate marketplace operations.
 - Developed **data pipelines** for scraping, processing, and analyzing product/catalog data.
 - Delivered **internal tools and prototypes** to improve product listings and seller support workflows.
 
 ## Education
 
-- M.Tech (Data Science) - National Institute of Technology, Patna (Expected Jun 2026) | GPA: 8.14/10
-- B.Tech (Computer Science) - Gurukula Kangri University (Jun 2024) | GPA: 8.51/10
+- M.Tech (Data Science) - **National Institute of Technology**, Patna (Expected Jun 2026) | **GPA: 8.14/10**
+- B.Tech (Computer Science) - **Gurukula Kangri University (Jun 2024)** | **GPA: 8.51/10**
 
 ## Certifications
 
@@ -77,17 +88,8 @@
 - Data Science - Devtown (Jul 2025)
 
 ## Contact
-
-- Resume (PDF): `../Remuse_final.pdf`
-- Resume (Text): `../resume.txt`
 - LinkedIn: https://linkedin.com/in/shivam-mishra-3b354023a
 - Email: mshivam3003@gmail.com
 - Phone: +91 75685 55487
 
-## Recruiter Keywords (ATS)
 
-<details>
-  <summary>Click to expand</summary>
-
-LLM, RAG, embeddings, vector search, prompt engineering, agentic workflows, Python, FastAPI, Streamlit, PostgreSQL, MongoDB, web scraping, NLP, Transformers, LangChain, LangGraph, LangSmith, Langfuse.
-</details>
