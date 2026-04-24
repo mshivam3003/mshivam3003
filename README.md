@@ -35,7 +35,8 @@
 
 ## Featured Projects
 
-### ResumeRise AI (Resume Builder + ATS Scoring + Job Scout)
+### 🚀 ResumeRise AI (Resume Builder + ATS Scoring + Job Scout)
+🔗 [View Project](https://github.com/mshivam3003/ats_score)
 **Goal:** help candidates tailor resumes to a job description and discover fresh roles (with optional email alerts).
 
 - **Built:** a local **Streamlit** app to (1) **score ATS compatibility** against a JD, (2) **improve the resume with an LLM** while preserving original content, and (3) **find job links** and generate a daily-style job email.
