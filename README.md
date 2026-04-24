@@ -2,7 +2,8 @@
 
 **AI Engineer** | LLMs (**RAG**, agents) | NLP | Python
 
-**Open to:** AI Engineer / LLM Engineer / ML Engineer (internship/full-time)| **LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
+**Open to:** AI Engineer / LLM Engineer / ML Engineer (internship/full-time)| 
+**LinkedIn:** https://linkedin.com/in/shivam-mishra-3b354023a | **Email:** mshivam3003@gmail.com | **Phone:** +91 75685 55487
 
 ## Recruiter Quick Scan
 
