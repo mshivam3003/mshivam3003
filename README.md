@@ -46,6 +46,29 @@
 
 **Tech:** Python, Streamlit, OpenRouter (via `openai` SDK), PyPDF2, python-docx, requests, lxml, SMTP, (optional) Outlook/pywin32
 
+### Mixed-Infection Sugarcane Leaf Disease Classification (GenAI Synthetic Data + Multi-Level Transformer)
+**Project Status**
+- **Stage:** prompt bank + initial generation experiments completed; training the upgraded classifier is ongoing.
+
+**Resume/Recruiter Summary (Copy-Paste Friendly)**
+- Built a **prompt-engineered synthetic dataset plan** to address **mixed infection** gaps in sugarcane leaf disease classification (MLTSDC extension).
+- Curated **48 structured prompts** covering **4 overlapping disease pairs**, **3 severity levels**, and **4 climate conditions** to improve real-field generalization.
+- Evaluated baseline training sensitivity to optimizer/learning-rate choices; identified **data coverage** (not hyperparameters) as the primary bottleneck.
+- Achieved **85.30% overall testing accuracy (preliminary)** with the proposed multi-level model vs **65.23%** with baseline MLTSDC on the current split (per `Research work.pptx`).
+- Prototyped a workflow to generate realistic leaf images using **GenAI models** (open/free options when paid APIs are restrictive).
+
+**Concise (1–2 lines)**
+Using GenAI (LLM-driven prompt engineering) to extend the MLTSDC transformer pipeline for sugarcane leaf disease detection by addressing the real-world gap of mixed/co-occurring infections via a structured synthetic-data workflow (48 prompts across disease pairs × severity × climate), improving preliminary overall test accuracy from **65.23%** (baseline MLTSDC) to **85.30%** (proposed multi-level model).
+
+**Detailed (resume-ready bullets)**
+- **Problem:** baseline sugarcane disease classifiers (including MLTSDC) perform well on single-disease labels but degrade in farm conditions due to mixed infections (symptom overlap) and environmental variability (lighting/climate).
+- **Proposed solution:** designed a hierarchical multi-level transformer-based pipeline (Patch Encoder + AI Blocks) with staged decisions: Level-1 Healthy/Unhealthy → Level-2 Single/Mixed → Level-3 single-disease class → Level-4 mixed-disease class.
+- **Synthetic data strategy:** built a prompt bank (`prompt.csv`) of **48 high-constraint prompts** covering **4 overlapping disease pairs** (A: Mosaic+Red Rot, B: Mosaic+Yellow, C: Mosaic+Rust, D: Red Rot+Rust) × **3 severities** (Early/Mid/Severe) × **4 conditions** (Natural light/Humid/Dry/Rainy) to generate realistic **256×256** field-like leaf images.
+- **Experiments:** ran optimizer sweep on baseline MLTSDC (LR=0.001, 10 epochs) showing limited gains from hyperparameter changes, indicating **data coverage** as the key bottleneck.
+- **Results (from `Research work.pptx`):** achieved **85.30%** preliminary overall testing accuracy with the proposed model vs **65.23%** with baseline MLTSDC; Level-2 improved substantially (**91.15%** test) for single/mixed discrimination, while deeper mixed-class levels remain an ongoing improvement area.
+- **Engineering:** implemented a post-processing pipeline (`post_process.py`) to standardize generated images (RGB, crop/resize to 256×256, JPEG quality 90), enforce ID→prompt mapping, and export a manifest for dataset QA and reproducibility.
+- **Tools/stack:** Python, TensorFlow/Keras (transformer/CV), prompt engineering, GenAI image generation workflow (Stable Diffusion/FLUX/Gemini-style models), dataset structuring + experiment tracking.
+
 ## Experience
 
 ### AI Engineer Intern - MySellerCentre (Sep 2025 - Present)
