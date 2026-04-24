@@ -70,6 +70,14 @@ Using GenAI (LLM-driven prompt engineering) to extend the MLTSDC transformer pip
 - **Engineering:** implemented a post-processing pipeline (`post_process.py`) to standardize generated images (RGB, crop/resize to 256×256, JPEG quality 90), enforce ID→prompt mapping, and export a manifest for dataset QA and reproducibility.
 - **Tools/stack:** Python, TensorFlow/Keras (transformer/CV), prompt engineering, GenAI image generation workflow (Stable Diffusion/FLUX/Gemini-style models), dataset structuring + experiment tracking.
 
+### Regional Sales Data Analytics (2014–2018) (Python EDA + Power BI)
+Analyzed regional sales data (2014–2018) to identify revenue/profit drivers across products, channels, and regions, and to compare **2017 sales** against **2017 product budgets**.
+
+- **Python EDA:** `Regional_Sales_Analysis.ipynb` loads a multi-sheet Excel workbook, checks data quality, merges sheets into one analysis table, cleans columns, engineers cost/profit features, and builds visual analyses (monthly trends, top products, channel mix, order value + unit price distributions, regional/state performance, top/bottom customers).
+- **Power BI:** includes dashboard screenshots and references to the dashboard section.
+- **Tech:** Python, Power BI, Excel
+- **Run:** create a virtual environment, install via `requirements.txt`, then run the notebook.
+
 ## Experience
 
 ### AI Engineer Intern - MySellerCentre (Sep 2025 - Present)
