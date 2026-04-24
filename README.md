@@ -72,6 +72,7 @@ Using GenAI (LLM-driven prompt engineering) to extend the MLTSDC transformer pip
 - **Tools/stack:** Python, TensorFlow/Keras (transformer/CV), prompt engineering, GenAI image generation workflow (Stable Diffusion/FLUX/Gemini-style models), dataset structuring + experiment tracking.
 
 ### Regional Sales Data Analytics (2014–2018) (Python EDA + Power BI)
+[🔗 View](https://github.com/mshivam3003/Regional-sales-data-analytics)
 Analyzed regional sales data (2014–2018) to identify revenue/profit drivers across products, channels, and regions, and to compare **2017 sales** against **2017 product budgets**.
 
 - **Python EDA:** `Regional_Sales_Analysis.ipynb` loads a multi-sheet Excel workbook, checks data quality, merges sheets into one analysis table, cleans columns, engineers cost/profit features, and builds visual analyses (monthly trends, top products, channel mix, order value + unit price distributions, regional/state performance, top/bottom customers).
